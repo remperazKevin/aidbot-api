@@ -81,6 +81,7 @@ Or you do not have access to an external server.
 - OpenAI API Key
 - Support Documents
 
+#### Instructions
 1. Extract the chatbot API to your website's internal root folder.
 2. In your console, type and run `npm install` to install all required dependencies.
 3. You may need to modify the `index.js` to have an export of the otherwise POST endpoint of the API.
