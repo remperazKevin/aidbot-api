@@ -151,7 +151,6 @@ This installation guide will walk you through the process of setting up the chat
 3. You are required to create a `.env` file that contains your OpenAI API Key and your selected port to be exposed by express.
     1. See `example.env`.
 4. Copy over all your support documents inside the `/support` folder.
-    1. By default, the chatbot API is already trained to answer from [Converge ICT Support Page](https://www.convergeict.com/support/).
 5. To run the chatbot API, in your console, type and run `npm start`.
 6. The console will output the exposed address of the chatbot API to be used as your endpoint.
     1. Your endpoint address should be `http:localhost:<port>/aid-post`
@@ -164,7 +163,6 @@ This installation guide will walk you through the process of setting up the chat
 4. You are required to create a `.env` file that contains your OpenAI API Key and your selected port to be exposed by express.
     1. See `example.env`.
 5. Copy over all your support documents inside the `/support` folder.
-    1. By default, the chatbot API is already trained to answer from [Converge ICT Support Page](https://www.convergeict.com/support/).
 6. Import the API module export to your website.
 7. You now have successfully set up the chatbot API.
 
