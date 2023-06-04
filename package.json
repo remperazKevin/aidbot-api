@@ -1,0 +1,28 @@
+{
+  "name": "aidbot-api",
+  "version": "1.0.0-beta",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "Synergy",
+    "ChatBot",
+    "OpenAI",
+    "AI"
+  ],
+  "author": "Jhonard Langcoyan, Johnlets Lopez, Kevin Clyne Remperas, Angel Bert Reyes, Jefherson Sta Maria, Rizal Technological University",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "langchain": "^0.0.88",
+    "openai": "^3.2.1",
+    "translate-google": "^1.5.0"
+  }
+}
